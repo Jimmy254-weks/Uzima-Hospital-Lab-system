@@ -1,0 +1,49 @@
+/* Center the form */
+form {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+
+/* Style form labels */
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Style form inputs */
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+
+/* Style form submit button */
+form input[type="submit"] {
+    width: 30%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: dodgerblue;
+    color: white;
+    cursor: pointer;
+}
+
+/* Style the link for password reset */
+form a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+/* Center the form title */
+h2 {
+    text-align: center;
+}

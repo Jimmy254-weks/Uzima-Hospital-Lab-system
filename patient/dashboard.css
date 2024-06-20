@@ -1,0 +1,187 @@
+/* Reset default browser styles */
+html, body, header, footer, nav, ul, li, main, aside {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif; 
+}
+
+/* Header styling */
+header {
+    background-color: DarkSlateGray;
+    color: white; 
+    padding: 20px; 
+}
+
+header nav ul {
+    list-style: none; 
+    text-align: center; 
+}
+
+header nav ul li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 35px; /* Add right margin for spacing between items */
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none; 
+}
+
+/* Header link hover styling starts */
+header nav ul li a {
+    color: white; /* Set link color - white */
+    text-decoration: none; 
+    padding: 8px 16px; /* Add padding to create rectangular area */
+    transition: background-color 0.3s; /* Add transition effect for smooth color change */
+}
+
+header nav ul li a:hover {
+    background-color: dodgerblue; /* Change background color on hover */
+    border-radius: 5px; /* Apply border radius for a rounded appearance */
+}
+/* Header link hover styling ends */
+
+
+/* Container layout */
+.container {
+    display: flex; /* Use flexbox for layout */
+    margin: 20px; /* Add margin for spacing */
+}
+
+/* Sidebar styling */
+aside {
+    width: 20%; /* Set sidebar width */
+    background-color: LightGray; /* Set background color */
+    padding: 20px; /* Add padding for spacing */
+}
+
+aside ul {
+    list-style: none; /* Remove default bullet points for list */
+    align-items: center;
+}f
+
+aside ul li {
+    margin-bottom: 10px; /* Add bottom margin for spacing between items */
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; 
+}
+
+aside ul li a {
+    color: black;
+    text-decoration: none; 
+    font-size: 18px;
+    display: inline-block; /* links and images align horizontally */
+    margin-top: 35px;
+    position: relative; /* Set position to relative */
+    padding-bottom: 5px; /* Add padding for spacing between links and lines */
+}
+
+aside ul li img {
+    width: 25px; 
+    height: 25px; 
+    margin-right: 10px; /* Add some space between the logos and the text */
+}
+
+/* Main content styling */
+main {
+    flex: 1; /* Take remaining space in the container */
+    padding: 15px; 
+}
+
+/* Footer styling */
+footer {
+    background-color: DarkSlateGray;
+    color: white; 
+    text-align: center; 
+    padding: 20px; /* Add padding for spacing */
+}
+
+/* Label styling */
+label {
+    display: inline-block; /* Display labels as block elements */
+    margin-bottom: 5px; /* Add bottom margin for spacing between labels */
+    font-weight: bold; 
+    font-size: 18px; 
+}
+
+/* input field and select elements styling */
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="time"],
+select {
+    font-size: 20px; /* Increase font size to enhance best readability */
+    padding: 4px;
+    margin: 1px; /* Add some margin for spacing */
+    border: 1px solid black; 
+    border-radius: 5px; /* Slightly round the borders */
+}
+
+/* Button styling */
+button {
+    color: white; 
+    background-color: lightseagreen; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+button:hover {
+    background-color: seagreen;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* Style for the grid container */
+.grid-container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin: 0 auto; /* Center the grid container */
+    padding: 20px; /* Add padding for spacing */
+    gap: 5px; /* Add gap between grid items */
+}
+
+.grid-item {
+    padding: 20px;
+    text-align: center;
+    background-color: white; /* whiteis the Default background color */
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.grid-item img {
+    width: 80%;
+    margin: auto; /* Center the image horizontally */
+}
+
+.grid-item a {
+    margin-top: 10px; /* Add margin above the link */
+    color: blue;
+    text-decoration: none;
+    transition: color 0.3s; /* Add transition effect for smooth color change */
+}
+
+.grid-item a:hover {
+    color: seagreen;
+    text-decoration: underline; /* Add underline on hover */
+}
+
+.grid-item Update-Profile{
+    background-color: LightBlue;
+}
+
+.grid-item.history {
+    background-color: LightGreen;
+}
+
+.grid-item.prescription {
+    background-color: LightCoral;
+}
